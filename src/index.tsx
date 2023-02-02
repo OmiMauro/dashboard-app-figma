@@ -8,7 +8,7 @@ import ErrorPage from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/dashboard-app-figma',
     element: <App />,
     errorElement: <ErrorPage />,
   },
