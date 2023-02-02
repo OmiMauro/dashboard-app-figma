@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dashboard-app-figma/static/css/main.569a8bf2.css",
+    "main.js": "/dashboard-app-figma/static/js/main.43519116.js",
+    "static/media/transportIcon.svg": "/dashboard-app-figma/static/media/transportIcon.654be71e906e9d7918a65f62380e2676.svg",
+    "index.html": "/dashboard-app-figma/index.html",
+    "static/media/cartIcon.svg": "/dashboard-app-figma/static/media/cartIcon.ad31a888590857c57aab3f8d2021e435.svg",
+    "static/media/houseIcon.svg": "/dashboard-app-figma/static/media/houseIcon.a0914e6ac4cf70465484ac3d1e6aea6a.svg",
+    "main.569a8bf2.css.map": "/dashboard-app-figma/static/css/main.569a8bf2.css.map",
+    "main.43519116.js.map": "/dashboard-app-figma/static/js/main.43519116.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569a8bf2.css",
+    "static/js/main.43519116.js"
+  ]
+}
