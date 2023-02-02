@@ -1,0 +1,196 @@
+.expenses {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 75vw;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expensesCard {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 95%;
+  height: 95%;
+  display: flex;
+}
+
+.expensesOverview {
+  width: 65%;
+  overflow-y: scroll;
+  padding: 5rem;
+}
+.expensesHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expensesTitle {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.expensesActions {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.personOne {
+  position: relative;
+  left: -73px;
+  z-index: 3;
+}
+.personTwo {
+  position: relative;
+  left: -83px;
+  z-index: 3;
+}
+.personThree {
+  position: relative;
+  left: -93px;
+  z-index: 1;
+}
+.addIcon {
+  cursor: pointer;
+  margin-left: -6rem;
+}
+.dateRange {
+  margin-top: 1rem;
+  opacity: 0.5;
+  margin-bottom: 2rem;
+}
+.expensesOverviewHeader {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.expensesOverviewTitle {
+  font-weight: 600;
+  font-size: 18px;
+}
+.expenseOption {
+  cursor: pointer;
+}
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.expenseItemLeft {
+  display: flex;
+  align-items: center;
+}
+.expenseItemDiv {
+  width: 49px;
+  height: 47px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expenseItemDetails {
+  margin-left: 1rem;
+}
+.expenseItemTitle {
+  font-weight: 500;
+  font-size: 16px;
+}
+.expenseItemTime {
+  opacity: 0.5;
+}
+.expenseItemPrice {
+  font-weight: 600;
+}
+
+.moneyOverview {
+  width: 35%;
+  overflow-y: scroll;
+  padding: 2rem;
+  background-color: #f9fafc;
+  border-radius: 0 50px 50px 0;
+  padding: 5rem 2rem;
+}
+.moneyOverviewTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.spendCategory {
+  display: flex;
+  justify-content: space-between;
+}
+.spendCategoryName {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+}
+.spendCategoryPrice {
+  color: #273240;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+.spendCategoryBar {
+  position: relative;
+  background: #eceff5;
+  border-radius: 5px;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  /*   margin-top: 1rem; */
+  margin-bottom: 1rem;
+}
+.spendCategoryColoredBar {
+  background: #31ba96;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+.saveMoneyDiv {
+  position: relative;
+  width: 70%;
+  background: #edf0f6;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+.boxes {
+  position: absolute;
+  top: -45px;
+  left: 25px;
+}
+.plant {
+  position: absolute;
+  top: -60px;
+  left: 175px;
+}
+.saveMoneyTitle {
+  font-weight: 600;
+  margin-top: 4rem;
+}
+.saveMoneyInfo {
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  color: #404852;
+  opacity: 0.7;
+}
+.button {
+  background-color: #101010;
+  color: #eceff5;
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
